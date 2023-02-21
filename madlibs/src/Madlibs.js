@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Madlibs.css"
 import Form from "./Form";
 import Story from "./Story";
 
@@ -10,7 +11,8 @@ const Madlibs = () => {
   const reset = () => setWords(null);
 
   return (
-    <div>
+    <div className="center">
+      <h1>Madlibs</h1>
       {words ? (
         <div>
           <Story props={words} /> <button onClick={reset}>New Madlib</button>

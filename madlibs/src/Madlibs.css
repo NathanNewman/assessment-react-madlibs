@@ -1,0 +1,14 @@
+body {
+    background-color: darkblue;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color:aqua;
+    padding-right: 100px;
+}
