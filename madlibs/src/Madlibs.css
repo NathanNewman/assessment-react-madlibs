@@ -1,14 +1,21 @@
 body {
-    background-color: darkblue;
+  background-color: darkblue;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 h1 {
-    color:aqua;
-    padding-right: 100px;
+  color: aqua;
+  padding-right: 100px;
+}
+
+button {
+  border-radius: 15%;
+  background-color: aqua;
+  color: black;
+  padding: 10px;
 }
